@@ -2,11 +2,11 @@
 
 Link to the game: https://www.cocrea.world/gandi?projectId=1990815093517029378&amp;inviteToken=uinDE5W5F
 
-# Lottes Shader Parameters
+## Lottes Shader Parameters
 
 Below are the base configuration parameters and presets for this shader.
 
-## Base Configuration
+### Base Configuration
 
 ```glsl
 //==============================================================
@@ -24,9 +24,9 @@ Below are the base configuration parameters and presets for this shader.
 
 ---
 
-## Presets
+### Presets
 
-### Preset 1: Classic Arcade (Default)
+#### Preset 1: Classic Arcade (Default)
 ```glsl
 #define HARD_SCAN -8.0
 #define HARD_PIX -3.0
@@ -38,7 +38,7 @@ Below are the base configuration parameters and presets for this shader.
 #define SHAPE 2.0
 ```
 
-### Preset 2: Sharp Monitor (Minimal Effects)
+#### Preset 2: Sharp Monitor (Minimal Effects)
 ```glsl
 #define HARD_SCAN -4.0
 #define HARD_PIX -2.0
@@ -50,7 +50,7 @@ Below are the base configuration parameters and presets for this shader.
 #define SHAPE 2.0
 ```
 
-### Preset 3: Heavy CRT Effect
+#### Preset 3: Heavy CRT Effect
 ```glsl
 #define HARD_SCAN -12.0
 #define HARD_PIX -4.0
@@ -62,7 +62,7 @@ Below are the base configuration parameters and presets for this shader.
 #define SHAPE 2.0
 ```
 
-### Preset 4: Pixel Art Perfect
+#### Preset 4: Pixel Art Perfect
 ```glsl
 #define HARD_SCAN -12.0
 #define HARD_PIX -4.0
@@ -74,7 +74,7 @@ Below are the base configuration parameters and presets for this shader.
 #define SHAPE 2.0
 ```
 
-### Preset 5: Flat Modern CRT
+#### Preset 5: Flat Modern CRT
 ```glsl
 #define HARD_SCAN -6.0
 #define HARD_PIX -2.5
